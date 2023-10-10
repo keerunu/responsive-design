@@ -1,0 +1,12 @@
+@media (max-width: 990px) {
+    .carousel-inner{
+        height: 100px;
+    }
+ }
+ @media (min-width: 990px) {
+    .collapse.dont-collapse-md {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+}

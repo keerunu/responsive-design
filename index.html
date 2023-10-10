@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styes.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary" aria-label="Navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The Thought Emporium</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Religion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-lg-none" data-bs-toggle="collapse" data-bs-target="#options" aria-expanded="true" aria-controls="options">Options</a>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row m-5 text-center d-none d-lg-block">
+            <h2>Human Consciousness</h2>
+            <div id="textCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3>God's creation or evolutionary accident?</h3>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Is life an illusion of death?</h3>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>How does this affect the economy?</h3>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+            <div class="col-md-4 collapse dont-collapse-md" id="options">
+                <ul class="list-group">
+                    <li class="list-group-item"><p><u>Profile</u></p></li>
+                    <li class="list-group-item"><p><u>Articles</u></p></li>
+                    <li class="list-group-item"><p><u>About</u></p></li>
+                    <li class="list-group-item"><p><u>Log Out</u></p></li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="row m-1">
+                    <div class="col-md-4" style="background-color: var(--bs-secondary-bg);">
+                        <p>The question of whether human consciousness is a creation of a divine entity (God) or an evolutionary product is a matter of philosophical and theological debate, and there is no universally accepted answer. Different individuals and belief systems have different perspectives on this issue. Here are two contrasting viewpoints:</p>
+                    </div>
+                    <div class="col-md-4" style="background-color: var(--bs-secondary-bg);">
+                        <p class="fw-bold">Creation by God:</p>
+                        <p>
+                            Many religious traditions assert that human consciousness is a creation of a divine being or deity (such as God). According to these beliefs, human beings possess consciousness and self-awareness because they are imbued with a spiritual or divine essence.
+                            The idea is that God intentionally created humans with consciousness as part of His plan or design. This perspective is often associated with theism and various religious doctrines.
+                        </p>
+                    </div>
+                    <div class="col-md-4" style="background-color: var(--bs-secondary-bg);">
+                        <p class="fw-bold">Evolutionary Product:</p>
+                        <p>
+                            From a scientific and naturalistic perspective, human consciousness is often seen as an emergent property of the evolutionary process. According to this view, consciousness is not the result of a deliberate act of creation by a supernatural entity but rather a product of biological evolution.
+                            Cognitive scientists, neuroscientists, and philosophers often explore how complex neural networks, brain structures, and processes have given rise to consciousness over millions of years of evolution. This perspective aligns with atheism, agnosticism, and secular humanism.
+                        </p>
+                    </div>
+                </div>
+                <div class="row m-1">
+                    <div class="col-md-4" style="background-color: var(--bs-secondary-bg);">
+                        <p>It's important to note that these viewpoints need not be mutually exclusive. Some individuals and belief systems attempt to reconcile religious or spiritual beliefs with the insights of evolutionary science, proposing that God initiated or guided the evolutionary process that led to consciousness.</p>
+                    </div>
+                    <div class="col-md-4" style="background-color: var(--bs-secondary-bg);">
+                        <p>Ultimately, the question of the origin of human consciousness remains a topic of ongoing philosophical, scientific, and theological inquiry, and different people may arrive at different conclusions based on their perspectives and worldviews.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
